@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color: blue;height: 200px;width: 200px;" class="box" id="azul"> </div>
+    <div style="background-color: red;height: 200px;width: 200px;" class="box" id="rojo"> </div>
+    <div style="background-color: green;height: 200px;width: 200px;" class="box" id="verde"></div>
+    <div style="background-color: yellow;height: 200px;width: 200px;" class="box" id="amarillo"></div>
+
+    <script>
+
+        const azul = document.getElementById('azul');
+        const rojo = document.getElementById('rojo');
+        const verde = document.getElementById('verde');
+        const amarillo = document.getElementById('amarillo');
+
+        azul.addEventListener('click', () => {
+            azul.style.background = 'black'
+        });
+
+        rojo.addEventListener('click', () => {
+            rojo.style.background = 'black'
+        });
+
+        verde.addEventListener('click', () => {
+            verde.style.background = 'black'
+        });
+
+        amarillo.addEventListener('click', () => {
+            amarillo.style.background = 'black'
+        });
+
+    </script>
+
+</body>
+
+</html>
